@@ -360,7 +360,6 @@ void mm_free(void *bp)
 /*
  * mm_realloc - Implemented simply in terms of mm_malloc and mm_free
  */
-// realloc要额外优化，否则最后两个样例会跑不通
 void *mm_realloc(void *ptr, size_t size)
 {
     DBG(GET_ALLOC(MEM2HD(ptr)) && "mm_realloc: double free / UAF detected");
