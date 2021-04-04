@@ -1,7 +1,5 @@
 [CodeQL documentation](https://codeql.github.com/docs/index.html)
 
-codeql本身并不是开源的，二进制文件都是加壳的，更别说开源了。
-
 # Background
 
 Learn more about how CodeQL works, the languages and libraries supported by CodeQL analysis, and the tools you can use to run CodeQL on open source projects.
